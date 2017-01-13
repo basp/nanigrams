@@ -1,7 +1,7 @@
 import { Rand } from './rand';
 
 describe('random number generator', () => {
-    const NumberOfSamples = 10;
+    const NumberOfSamples = 1000;
 
     let sut: Rand;
 
