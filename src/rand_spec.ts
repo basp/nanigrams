@@ -15,7 +15,7 @@ describe('random number generator', () => {
             expect(res).toBe(0);
         });
 
-        it('handles the akward negative case', () => {
+        it('handles the awkward negative case', () => {
             var res = sut.uniform(-1, -1);
             expect(res).toBe(-1);
         });
