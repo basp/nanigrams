@@ -1,0 +1,26 @@
+{
+  "name": "sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "cd dist && browser-sync start -server dist"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.40",
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.6",
+    "browserify": "^13.3.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.4.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-typescript": "^2.1.6",
+    "tsify": "^3.0.0",
+    "typescript": "^2.1.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
